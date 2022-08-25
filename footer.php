@@ -1,34 +1,23 @@
-     <div class="footer_info">
-                <div class="inner">
-                    <div>
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/newlogo.png">
-					    <p>住宅建築を木材のプロがサポート</p>
-                    <!-- <div>
-                        <p>自然素材を選び放題の家　　　レバンテ</p>
-                        <p>省エネ住宅を手ごろな値段で　アリエ</p>
-                        <p>千葉市四街道市で家を建てるなら　きのかホーム</p>
-                     </div> -->
-					</div>
+    <section>
+        <div class="footer_container">
+            
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/dummy.png" width="130px" height="130px" alt="シンプルノートのロゴ">
 
-                </div>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/simplenote_logo.png" width="450px" height="70px" alt="Instagram">
+
+            <p><span>千葉中央スタジオ</span></p>
+
+            <div class="footer_info">
+                <p>運営会社：株式会社コヤス</p>
+                <p>〒264-0020　千葉県千葉市若葉区貝塚2-14-21</p>
+                <p>TEL 043-231-0806／FAX 043-232-8131</p>
+                <p>営業時間 9:00～18:00　定休日 日曜・祝日</p>
             </div>
-
-            <!-- お問合せ -->
-            <div class="contact mt50">
-                <div class="inner">
-                    <div class="inner_left">
-                        <div class="inner_in1">
-							<p>お電話でのお問い合わせは</p>
-							<p>今すぐこちらから</p>
-						<div class="tel_num2">
-                        <p><span style="font-size:22px;"><a href="tel:043-231-0806">043-231-0806</a></span></p>
-						</div>
-                        </div>
-                        <div class="inner_in2 mb10">
-                            <p>営業時間：9：00～18：00</p>
-                            <p>定休日：日曜日、祝日</p>
-                        </div>
-                    </div>
+            <div class="footer_instagram">
+                <a href="https://www.instagram.com/kinoka_home/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/instagram_01.png" width="35px" height="35px" alt="Instagram"></a>
+            </div>
+        </div>
+    </div>
 
                     
 <!-- お電話・お問合せアイコン　ここから -->
@@ -52,7 +41,7 @@
 -->
 <!-- お電話・お問合せアイコン　ここまで -->                    
                     
-                </div>
+</section>
             </div>
 
 
