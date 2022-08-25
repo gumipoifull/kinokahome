@@ -9,6 +9,7 @@
 
     /* ========== 全体 ========== */
 
+
     body {
         max-width: 1440px;
         font-family: "メイリオ", "Helvetica Neue", "Arial", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
@@ -685,6 +686,40 @@
         }
     }
 
+        /* フッター */
+
+        .footer_container {
+            text-align: center;
+            padding-top: 100px;
+        }
+    
+        .footer_container img {
+            display: block;
+            max-width: 100%;
+            margin: 0 auto;
+            margin-bottom: 15px;
+        }
+
+        .footer_container span {
+            display: block;
+            margin-top: -15px;
+            font-size: 1.275rem;
+        }
+
+        .footer_info {
+            margin-top: 30px;
+            margin-bottom: 25px;
+            font-size: 1rem;
+        }
+
+    
+
+    
+
+
+
+
+
     /* 6フッターナビ */
 
     .footer_navi {
@@ -747,20 +782,6 @@
         display: none;
     }
 
-    /*7.フッター*/
-
-    .footer_info {
-        padding-top: 30px;
-    }
-
-    .footer_info .inner div {
-        text-align: center;
-    }
-
-
-    .logo2 {
-        width: 100%;
-    }
 
     /*8.お問合せ
 
