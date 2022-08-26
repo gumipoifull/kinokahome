@@ -714,6 +714,7 @@
         }
 
         .footer_instagram a {
+            display: block;
             margin-bottom: 50px;
         }
 
