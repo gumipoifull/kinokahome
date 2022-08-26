@@ -1,7 +1,7 @@
     <section>
         <div class="footer_container">
             
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/dummy.png" width="130px" height="130px" alt="シンプルノートのロゴ">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/kinokahome_logo.png" width="130px" height="130px" alt="シンプルノートのロゴ">
 
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/simplenote_logo.png" width="450px" height="70px" alt="Instagram">
 
