@@ -529,7 +529,7 @@
         text-align: center;
     }
 
-    .home_contact_container a {
+    .home_contact_container a:nth-child(2) {
         font-size: 2rem;
         background-image: url(../img/png/phone.png);
         background-repeat: no-repeat;

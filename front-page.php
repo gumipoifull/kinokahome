@@ -187,16 +187,15 @@
   </section>
 
 
-  <section class="home_contact">
+  <section>
+  <div class="home_contact_container">
   <h2 class="ttl">
         <a name="contact">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/contact.png" width="153px" height="46px" alt="CONTACT">
         </a>
 </h2>
-    <div class="home_contact_container">
       <a href="tel:043-231-0806">043-231-0806</a>
       <p class="mb30">不明点・ご相談などお気軽にご連絡ください</p>
-
   </div>
 
   <?php echo do_shortcode('[contact-form-7 id="730" title="お問い合わせ"]'); ?>
