@@ -9,6 +9,15 @@
   <li class="slider5"></li>
 </ul>
 
+<section>
+    <div class="home_news_container">
+      <h2 class="ttl">
+        <a name="lineup">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/news.png" width="98px" height="46px" alt="NEWS">
+        </a>
+    </h2>
+    <?php echo do_shortcode('[showwhatsnew]'); ?>
+  </section>
 
   <section>
   <h2 class="ttl">
