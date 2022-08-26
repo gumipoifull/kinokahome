@@ -13,6 +13,7 @@
     body {
         max-width: 1440px;
         font-family: "メイリオ", "Helvetica Neue", "Arial", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+        color: #000;
     }
 
 
@@ -23,11 +24,11 @@
 
     a {
         text-decoration: none;
-        color: #474747;
+        color: #000;
     }
 
     p {
-        color: #474747;
+        color: #000;
     }
 
     .inner {
@@ -186,7 +187,7 @@
         background-repeat: no-repeat;
         background-size: 100% 100%;
         background-position: center center;
-        height: 100vh;
+        height: 60vh;
         position: relative;
     }
 
@@ -195,7 +196,7 @@
         background-repeat: no-repeat;
         background-size: 100% 100%;
         background-position: center center;
-        height: 100vh;
+        height: 60vh;
         position: relative;
     }
 
@@ -204,7 +205,7 @@
         background-repeat: no-repeat;
         background-size: 100% 100%;
         background-position: center center;
-        height: 100vh;
+        height: 60vh;
         position: relative;
     }
 
@@ -214,7 +215,7 @@
         background-repeat: no-repeat;
         background-size: 100% 100%;
         background-position: center center;
-        height: 100vh;
+        height: 60vh;
         position: relative;
     }
 
@@ -224,7 +225,7 @@
         background-repeat: no-repeat;
         background-size: 100% 100%;
         background-position: center center;
-        height: 100vh;
+        height: 60vh;
         position: relative;
     }
 
@@ -242,7 +243,7 @@
             background-repeat: no-repeat;
             background-size: 100% auto;
             background-position: center center;
-            height: 60vh;
+            height: 30vh;
             position: relative;
         }
 
@@ -251,7 +252,7 @@
             background-repeat: no-repeat;
             background-size: 100% auto;
             background-position: center center;
-            height: 60vh;
+            height: 30vh;
             position: relative;
         }
 
@@ -260,7 +261,7 @@
             background-repeat: no-repeat;
             background-size: 100% auto;
             background-position: center center;
-            height: 60vh;
+            height: 30vh;
             position: relative;
         }
 
@@ -270,7 +271,7 @@
             background-repeat: no-repeat;
             background-size: 100% auto;
             background-position: center center;
-            height: 60vh;
+            height: 30vh;
             position: relative;
         }
 
@@ -280,10 +281,11 @@
             background-repeat: no-repeat;
             background-size: 100% auto;
             background-position: center center;
-            height: 60vh;
+            height: 30vh;
             position: relative;
         }
     }
+
 
     /* ========== イベント ========== */
 
