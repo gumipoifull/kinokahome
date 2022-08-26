@@ -344,7 +344,7 @@
 
     .lineup_sub {
         display: flex;
-        width: 33%;
+        width: 100%;
         gap: 15px;
         margin-bottom: 25px;
     }
