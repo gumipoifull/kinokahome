@@ -10,7 +10,7 @@
 </ul>
 
 
-  <section class="home_event">
+  <section>
   <h2 class="ttl">
       <a name="event">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/pickupevent.png" width="223px" height="46px" alt="PICK UP EVENT">
@@ -24,7 +24,7 @@
 
   <div class="inner">
 
-  <section class="home_lineup">
+  <section>
     <div class="home_lineup_container">
       <h2 class="ttl">
         <a name="lineup">
@@ -34,7 +34,7 @@
 
       <!-- シンプルノート -->
 
-      <article class="simplenote">
+      <article>
         <div class="lineup_container">
           <div class="lineup_main">
             <div class="lineup_left">
@@ -42,7 +42,7 @@
             </div>
 
             <div class="lineup_right">
-              <h3 class="house_ttl">
+            <h3 class="house_ttl">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/simplenote_logo.png" width="450px" height="70px" alt="シンプルノートのロゴ">
               </h3>
               <p>
@@ -75,9 +75,9 @@
         </div> <!-- simplenote_container 閉じdiv -->
       </article>
 
-      <!-- アリエ -->
 
-      <article class="arie">
+      <!-- アリエ -->
+      <article>
         <div class="lineup_container">
           <div class="lineup_main">
             <div class="lineup_left">
@@ -109,10 +109,11 @@
           <a href="https://arie-na.com/" class="lineup_btn" target="_blank" rel="noopener noreferrer">MORE</a>
 
         </div> <!-- arie_container 閉じdiv -->
+        <article>
 
-        <!-- レバンテシリーズ -->
 
-        <article class="arie">
+        <!-- レバンテ -->
+        <article>
           <div class="lineup_container">
             <div class="lineup_main">
               <div class="lineup_left">
@@ -146,13 +147,11 @@
 
 <a href="" class="lineup_btn">MORE</a>
           </div> <!-- levante_container 閉じdiv -->
-
         </article>
-
     </div>
   </section>
 
-  <section class="home_blog">
+  <section>
   <h2 class="ttl">
         <a name="blog">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/blog.png"  width="87px" height="46px" alt="BLOG">
