@@ -42,7 +42,9 @@
             </div>
 
             <div class="lineup_right">
-              <h3 class="house_ttl">SIMPLE NOTE</h3>
+              <h3 class="house_ttl">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/simplenote_logo.png" width="450px" height="70px" alt="シンプルノートのロゴ">
+              </h3>
               <p>
                 洗練されたデザイナーズ住宅
                 <br>
