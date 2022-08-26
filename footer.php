@@ -1,9 +1,9 @@
     <section>
         <div class="footer_container">
             
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/kinokahome_logo.png" width="130px" height="130px" alt="きのかホームのロゴ">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/kinokahome_logo.png" width="130" height="130" alt="きのかホームのロゴ">
 
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/simplenote_logo.png" width="450px" height="70px" alt="シンプルノートのロゴ">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/simplenote_logo.png" width="450" height="70" alt="シンプルノートのロゴ">
 
             <p><span>千葉中央スタジオ</span></p>
 
@@ -14,7 +14,7 @@
                 <p>営業時間 9:00～18:00　定休日 日曜・祝日</p>
             </div>
             <div class="footer_instagram">
-                <a href="https://www.instagram.com/kinoka_home/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/instagram_01.png" width="35px" height="35px" alt="Instagram"></a>
+                <a href="https://www.instagram.com/kinoka_home/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/instagram_01.png" width="35" height="35" alt="Instagramのロゴ"></a>
             </div>
         </div>
     </div>

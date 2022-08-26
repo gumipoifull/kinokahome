@@ -8,7 +8,7 @@
 
                     <div class="desk_header_left">
                         <a href="https://kinoka-home.com/"><img
-                                src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/kinokahome_logo.png" class="logo"></a>
+                                src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/kinokahome_logo.png" class="logo" width="130" height="130" alt="きのかホームのロゴ"></a>
                         <p class="header_text_kinoka">千葉市,四街道市で注文住宅,平屋,新築を<br class="br_sp">建てる工務店ならきのかホーム</p>
 
                         <div class="header_contact">

@@ -13,7 +13,7 @@
     <div class="home_news_container">
       <h2 class="ttl">
         <a name="lineup">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/news.png" width="98px" height="46px" alt="NEWS">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/news.png" width="98" height="46" alt="NEWS">
         </a>
     </h2>
     <?php echo do_shortcode('[showwhatsnew]'); ?>
@@ -22,7 +22,7 @@
   <section>
   <h2 class="ttl">
       <a name="event">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/pickupevent.png" width="223px" height="46px" alt="PICK UP EVENT">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/pickupevent.png" width="223" height="46" alt="PICK UP EVENT">
       </a>
   </h2>
     <div class="home_event_container">
@@ -37,7 +37,7 @@
     <div class="home_lineup_container">
       <h2 class="ttl">
         <a name="lineup">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/lineup.png"  width="115px" height="46px" alt="LINE UP">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/lineup.png"  width="115" height="46" alt="LINE UP">
         </a>
     </h2>
 
@@ -47,12 +47,12 @@
         <div class="lineup_container">
           <div class="lineup_main">
             <div class="lineup_left">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/jpg/simple_main.jpg"  width="650px" height="380px" alt="SIMPLE NOTE 外観その1">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/jpg/simple_main.jpg"  width="650" height="380" alt="SIMPLE NOTE 外観その1">
             </div>
 
             <div class="lineup_right">
             <h3 class="house_ttl">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/simplenote_logo.png" width="450px" height="70px" alt="シンプルノートのロゴ">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/simplenote_logo.png" width="450" height="70" alt="シンプルノートのロゴ">
               </h3>
               <p>
                 洗練されたデザイナーズ住宅
@@ -74,9 +74,9 @@
           </div>
 
           <div class="lineup_sub">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/jpg/simple_sub01.jpg" width="325px" height="310px" alt="SIMPLE NOTE 外観その2">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/jpg/simple_sub02.jpg" width="325px" height="310px" alt="SIMPLE NOTE 外観その3">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/jpg/simple_sub03.jpg" width="325px" height="310px" alt="SIMPLE NOTE 外観その4">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/jpg/simple_sub01.jpg" width="325" height="310" alt="SIMPLE NOTE 外観その2">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/jpg/simple_sub02.jpg" width="325" height="310" alt="SIMPLE NOTE 外観その3">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/jpg/simple_sub03.jpg" width="325" height="310" alt="SIMPLE NOTE 外観その4">
           </div>
 
           <a href="https://simple-note.jp/" class="lineup_btn"target="_blank" rel="noopener noreferrer">MORE</a>
@@ -90,7 +90,7 @@
         <div class="lineup_container">
           <div class="lineup_main">
             <div class="lineup_left">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/jpg/arie_main.jpg"  width="650px" height="380px" alt="Arie 外観その1">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/jpg/arie_main.jpg"  width="650" height="380" alt="Arie 外観その1">
             </div>
             <div class="lineup_right">
               <h3 class="house_ttl">Arie</h3>
@@ -110,9 +110,9 @@
           </div>
 
           <div class="lineup_sub">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/jpg/arie_sub01.jpg" width="325px" height="310px" alt="Arie 外観その2">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/jpg/arie_sub02.jpg" width="325px" height="310px" alt="Arie 外観その3">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/jpg/arie_sub03.jpg" width="325px" height="310px" alt="Arie 外観その4">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/jpg/arie_sub01.jpg" width="325" height="310" alt="Arie 外観その2">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/jpg/arie_sub02.jpg" width="325" height="310" alt="Arie 外観その3">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/jpg/arie_sub03.jpg" width="325" height="310" alt="Arie 外観その4">
           </div>
 
           <a href="https://arie-na.com/" class="lineup_btn" target="_blank" rel="noopener noreferrer">MORE</a>
@@ -126,7 +126,7 @@
           <div class="lineup_container">
             <div class="lineup_main">
               <div class="lineup_left">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/jpg/levante_main.jpg"  width="650px" height="380px" alt="Levante 外観その1">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/jpg/levante_main.jpg"  width="650" height="380" alt="Levante 外観その1">
               </div>
               <div class="lineup_right">
                 <h3 class="house_ttl">Levante Series</h3>
@@ -145,9 +145,9 @@
             </div>
 
             <div class="lineup_sub">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/jpg/levante_sub01.jpg" width="325px" height="310px" alt="Levante 外観その2">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/jpg/levante_sub02.jpg" width="325px" height="310px" alt="Levante 外観その3">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/jpg/levante_sub03.jpg" width="325px" height="310px" alt="Levante 外観その4">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/jpg/levante_sub01.jpg" width="325" height="310" alt="Levante 外観その2">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/jpg/levante_sub02.jpg" width="325" height="310" alt="Levante 外観その3">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/jpg/levante_sub03.jpg" width="325" height="310" alt="Levante 外観その4">
             </div>
 
 <!--ラインナップ下層ページ 未完成-->
@@ -163,7 +163,7 @@
   <section>
   <h2 class="ttl">
         <a name="blog">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/blog.png"  width="87px" height="46px" alt="BLOG">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/blog.png"  width="87" height="46" alt="BLOG">
         </a>
   </h2>
 
@@ -171,19 +171,19 @@
       <div class="container_background">
         <div class="blog_box">
           <div class="blog_item">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/blog_dummy.png" width="265px" height="250px" alt="BLOGサムネイル">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/blog_dummy.png" width="265" height="250" alt="BLOGサムネイル">
           <h2 class="blog_date">2022/08/01(MON)</h2>
           <p class="blog_item_ttl">ここにタイトルが入ります。ここにタイトルが入ります。ここにタイトルが入ります。</p>
           </div>
 
         <div class="blog_item sp_none">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/blog_dummy.png" width="265px" height="250px" alt="BLOGサムネイル">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/blog_dummy.png" width="265" height="250" alt="BLOGサムネイル">
           <h2 class="blog_date">2022/08/01(MON)</h2>
           <p class="blog_item_ttl">ここにタイトルが入ります</p>
         </div>
 
         <div class="blog_item sp_none">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/blog_dummy.png" width="265px" height="250px" alt="BLOGサムネイル">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/blog_dummy.png" width="265" height="250" alt="BLOGサムネイル">
           <h2 class="blog_date">2022/08/01(MON)</h2>
           <p class="blog_item_ttl">ここにタイトルが入ります</p>
         </div>
@@ -199,7 +199,7 @@
   <div class="home_contact_container">
   <h2 class="ttl">
         <a name="contact">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/contact.png" width="153px" height="46px" alt="CONTACT">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/contact.png" width="153" height="46" alt="CONTACT">
         </a>
 </h2>
       <a href="tel:043-231-0806">043-231-0806</a>
