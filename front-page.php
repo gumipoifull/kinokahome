@@ -199,16 +199,16 @@
         wp_reset_query(); ?>
       </div> <!-- blog_box 閉じdiv -->
 
-
+      <a href="" class="blog_btn">ブログ一覧</a>
       </div> <!-- container_background 閉じdiv -->
 
     </div> <!-- home_blog_container 閉じdiv -->
-    <a href="" class="blog_btn">ブログ一覧</a>
+
   </section>
 
 
   <section>
-  <div class="home_contact_container">
+  <div id="contact" class="home_contact_container">
   <h2 class="ttl">
         <a name="contact">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/contact.png" width="153" height="46" alt="CONTACT">
