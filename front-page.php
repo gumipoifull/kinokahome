@@ -52,7 +52,7 @@
 
             <div class="lineup_right">
             <h3 class="house_ttl">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/simplenote_logo.png" width="450" height="70" alt="シンプルノートのロゴ">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/simplenote_logo.png" width="250" height=" 60" alt="シンプルノートのロゴ">
               </h3>
               <p>
                 洗練されたデザイナーズ住宅
@@ -93,7 +93,9 @@
               <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/jpg/arie_main.jpg"  width="650" height="380" alt="Arie 外観その1">
             </div>
             <div class="lineup_right">
-              <h3 class="house_ttl">Arie</h3>
+            <h3 class="house_ttl">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/arie_logo.png" width="250" height="60" alt="Arieのロゴ">
+              </h3>
               <p>
                 私らしく、心地よい家。
                 <br>
@@ -129,7 +131,9 @@
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/jpg/levante_main.jpg"  width="650" height="380" alt="Levante 外観その1">
               </div>
               <div class="lineup_right">
-                <h3 class="house_ttl">Levante Series</h3>
+              <h3 class="house_ttl">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/levante_logo.png" width="250" height="70" alt="レバンテのロゴ">
+              </h3>
                 <p>
                   肌触りの良い無垢材の床、珊瑚や和紙から生まれた壁材、健康にも配慮された自然素材づくしの注文住宅
                   <br>
@@ -169,29 +173,37 @@
 
     <div class="home_blog_container">
       <div class="container_background">
-        <div class="blog_box">
+      <div class="blog_box">
+      <?php
+        query_posts('cat=1&posts_per_page=3&paged=' . $paged);
+        ?>
+        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+
           <div class="blog_item">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/blog_dummy.png" width="265" height="250" alt="BLOGサムネイル">
-          <h2 class="blog_date">2022/08/01(MON)</h2>
-          <p class="blog_item_ttl">ここにタイトルが入ります。ここにタイトルが入ります。ここにタイトルが入ります。</p>
+            <?php if (has_post_thumbnail()) :
+                the_post_thumbnail('post-thumbnails', array('width' => '100%', 'alt' => the_title_attribute('echo=0')));
+            else : ?>
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/noimage_small.gif" class="noimage">
+            <?php endif; ?>
+            <h2 class="blog_date"><?php echo get_the_date('Y.m.d'); ?></h2>
+            <p class="blog_item_ttl"><?php the_title(); ?></p>
           </div>
 
-        <div class="blog_item sp_none">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/blog_dummy.png" width="265" height="250" alt="BLOGサムネイル">
-          <h2 class="blog_date">2022/08/01(MON)</h2>
-          <p class="blog_item_ttl">ここにタイトルが入ります</p>
-        </div>
+        <?php endwhile; ?>
+        <?php else : ?>
 
-        <div class="blog_item sp_none">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/blog_dummy.png" width="265" height="250" alt="BLOGサムネイル">
-          <h2 class="blog_date">2022/08/01(MON)</h2>
-          <p class="blog_item_ttl">ここにタイトルが入ります</p>
-        </div>
+            <p>記事が見つかりません</p>
+
+        <?php endif; ?>
+        <?php wp_reset_postdata();
+        wp_reset_query(); ?>
       </div> <!-- blog_box 閉じdiv -->
 
-      <a href="" class="blog_btn">ブログ一覧</a>
+
       </div> <!-- container_background 閉じdiv -->
+
     </div> <!-- home_blog_container 閉じdiv -->
+    <a href="" class="blog_btn">ブログ一覧</a>
   </section>
 
 
