@@ -189,7 +189,7 @@
         background-repeat: no-repeat;
         background-size: 100% 100%;
         background-position: center center;
-        height: 60vh;
+        height: 100vh;
         position: relative;
     }
 
@@ -198,7 +198,7 @@
         background-repeat: no-repeat;
         background-size: 100% 100%;
         background-position: center center;
-        height: 60vh;
+        height: 100vh;
         position: relative;
     }
 
@@ -207,7 +207,7 @@
         background-repeat: no-repeat;
         background-size: 100% 100%;
         background-position: center center;
-        height: 60vh;
+        height: 100vh;
         position: relative;
     }
 
@@ -217,7 +217,7 @@
         background-repeat: no-repeat;
         background-size: 100% 100%;
         background-position: center center;
-        height: 60vh;
+        height: 100vh;
         position: relative;
     }
 
@@ -227,7 +227,7 @@
         background-repeat: no-repeat;
         background-size: 100% 100%;
         background-position: center center;
-        height: 60vh;
+        height: 100vh;
         position: relative;
     }
 
@@ -245,7 +245,7 @@
             background-repeat: no-repeat;
             background-size: 100% auto;
             background-position: center center;
-            height: 30vh;
+            height: 45vh;
             position: relative;
         }
 
@@ -254,7 +254,7 @@
             background-repeat: no-repeat;
             background-size: 100% auto;
             background-position: center center;
-            height: 30vh;
+            height: 45vh;
             position: relative;
         }
 
@@ -263,7 +263,7 @@
             background-repeat: no-repeat;
             background-size: 100% auto;
             background-position: center center;
-            height: 30vh;
+            height: 45vh;
             position: relative;
         }
 
@@ -273,7 +273,7 @@
             background-repeat: no-repeat;
             background-size: 100% auto;
             background-position: center center;
-            height: 30vh;
+            height: 45vh;
             position: relative;
         }
 
@@ -283,7 +283,7 @@
             background-repeat: no-repeat;
             background-size: 100% auto;
             background-position: center center;
-            height: 30vh;
+            height: 45vh;
             position: relative;
         }
     }
@@ -330,15 +330,23 @@
     }
 
 
-    .house_ttl {
-        width: 80%;
+    .house__ttl--normal {
         padding-bottom: 10px;
     }
 
-    .house_ttl img {
+
+    .house__ttl--small {
+        width: 55%;
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+
+    .house__ttl--small img {
         width: 100%;
         height: auto;
     }
+
 
     .lineup_right p {
         font-size: 1rem;
@@ -348,7 +356,7 @@
 
     .lineup_sub {
         display: flex;
-        width: 100%;
+        width: 33%;
         gap: 15px;
         margin-bottom: 25px;
     }
@@ -406,10 +414,7 @@
 
 
         .house_ttl {
-            font-size: 1.125rem;
-            text-align: center;
             padding-bottom: 15px;
-            font-weight: bold;
         }
 
 
@@ -725,6 +730,12 @@
             display: block;
             margin-bottom: 50px;
         }
+
+
+
+
+
+
 
 
     /* 6フッターナビ */

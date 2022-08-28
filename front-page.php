@@ -51,7 +51,7 @@
             </div>
 
             <div class="lineup_right">
-            <h3 class="house_ttl">
+            <h3 class="house__ttl--normal">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/simplenote_logo.png" width="250" height=" 60" alt="シンプルノートのロゴ">
               </h3>
               <p>
@@ -93,7 +93,7 @@
               <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/jpg/arie_main.jpg"  width="650" height="380" alt="Arie 外観その1">
             </div>
             <div class="lineup_right">
-            <h3 class="house_ttl">
+            <h3 class="house__ttl--small">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/arie_logo.png" width="250" height="60" alt="Arieのロゴ">
               </h3>
               <p>
@@ -131,7 +131,7 @@
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/jpg/levante_main.jpg"  width="650" height="380" alt="Levante 外観その1">
               </div>
               <div class="lineup_right">
-              <h3 class="house_ttl">
+              <h3 class="house__ttl--small">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/levante_logo.png" width="250" height="70" alt="レバンテのロゴ">
               </h3>
                 <p>
