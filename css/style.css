@@ -418,12 +418,20 @@
             text-align: center;
             margin-top: 30px;
         }
+        
 
-
-        .house_ttl {
-            padding-bottom: 15px;
+        .house__ttl--small:first-child {
+            width: 65%;
+            height: auto;
+            margin: 0 auto;
+            padding: 0px 0 15px 55px;
         }
+    
 
+        .house__ttl--small img {
+            width: 100%;
+            height: auto;
+        }
 
         .lineup_right p {
             font-size: 0.875rem;
