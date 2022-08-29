@@ -504,6 +504,11 @@
         gap: 50px;
     }
 
+    @media not screen and (min-width: 560px) {
+        .blog_box {
+            display: block;
+        }
+    }
 
     .blog_item {
         background-color: #FFF;
