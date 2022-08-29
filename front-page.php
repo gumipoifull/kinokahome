@@ -1,13 +1,20 @@
 <?php get_header(); ?>
 <?php get_template_part('header2'); ?>
 
-<ul class="slider">
-  <li class="slider1"></li>
-  <li class="slider2"></li>
-  <li class="slider3"></li>
-  <li class="slider4"></li>
-  <li class="slider5"></li>
-</ul>
+<div class="slider_container">
+<p class="slider_catchcopy">シンプルに建てるとは、<br>豊かに暮らすコト。</p>
+  <ul class="slider">
+    <li class="slider_img slider1"></li>
+    <li class="slider_img slider2"></li>
+    <li class="slider_img slider3"></li>
+    <li class="slider_img slider4"></li>
+    <li class="slider_img slider5"></li>
+  </ul>
+  <div class="slider_btn_area">
+    <a href="/#contact" class="slider_btn slider_btn-1">資料請求</a>
+    <a href="/#contact" class="slider_btn slider_btn-2">お問い合わせ</a>
+  </div>
+</div>
 
 <section>
     <div class="home_news_container">
@@ -199,7 +206,7 @@
         wp_reset_query(); ?>
       </div> <!-- blog_box 閉じdiv -->
 
-      <a href="" class="blog_btn">ブログ一覧</a>
+      <a href="/category/blog/" class="blog_btn">ブログ一覧</a>
       </div> <!-- container_background 閉じdiv -->
 
     </div> <!-- home_blog_container 閉じdiv -->

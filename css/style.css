@@ -14,6 +14,7 @@
         max-width: 1440px;
         font-family: "メイリオ", "Helvetica Neue", "Arial", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
         color: #000;
+        overflow-x: hidden;
     }
 
 
@@ -25,6 +26,10 @@
     a {
         text-decoration: none;
         color: #000;
+    }
+
+    a:hover {
+        opacity: .7;
     }
 
     p {
@@ -91,7 +96,6 @@
     .header_contact {
         margin: 0 0 30px 120px;
     }
-
 
     .header_contact p {
         font-size: 1rem;
@@ -163,9 +167,7 @@
             font-size: 1rem;
         }
 
-
         /* ========== ハンバーガーメニューCSS ========== */
-
 
         .desk_header_right p {
             font-size: 0.7rem;
@@ -178,115 +180,141 @@
 
     /* ========== スライド ========== */
 
+
+    /* ↓↓↓↓↓ 8/29 ゆたか編集部分 ↓↓↓↓↓ */
+    .slider_container {
+        position: relative;
+    }
+
+    .slider_catchcopy{
+        position: absolute;
+        top: 47%;
+        left: 220px;
+        z-index: 99;
+        font-size: 32px;
+        line-height: 1.5;
+    }
+
+    .slider_btn {
+        position: absolute;
+        right: 0;
+        z-index: 99;
+        display: block;
+        width: 150px;
+        height: 80px;
+        padding: 27px 21px 26px;
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+    }
+    .slider_btn-1 {
+        background-color: #5D5D5D;
+        top: 20px;
+    }
+    .slider_btn-2 {
+        background-color: #AEAEAE;
+        top: 115px;
+    }
+
     .slider {
         margin: 0 auto;
         width: 100%;
+
+    }
+
+    .slider_img {
         background-color: #fff;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center center;
+        height: 100vh;
+        position: relative;
     }
 
     .slider1 {
         background-image: url(../img/jpg/simplenote_top001.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        background-position: center center;
-        height: 100vh;
-        position: relative;
     }
 
     .slider2 {
         background-image: url(../img/jpg/simplenote_top002.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        background-position: center center;
-        height: 100vh;
-        position: relative;
     }
 
     .slider3 {
         background-image: url(../img/jpg/simplenote_top003.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        background-position: center center;
-        height: 100vh;
-        position: relative;
     }
-
 
     .slider4 {
         background-image: url(../img/jpg/simplenote_top004.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        background-position: center center;
-        height: 100vh;
-        position: relative;
     }
-
 
     .slider5 {
         background-image: url(../img/jpg/simplenote_top005.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        background-position: center center;
-        height: 100vh;
-        position: relative;
     }
 
 
     @media not screen and (min-width: 560px) {
 
+        .slider_catchcopy{
+            left: 35px;
+            font-size: 14px;
+        }
+
+        .slider_btn_area {
+            display: flex;
+        }
+
+        .slider_btn {
+            position: static;
+            width: 100%;
+            height: 30px;
+            padding: 5px 0 4px;
+            font-size: 14px;
+        }
+        .slider_btn-1 {
+            background-color: #5D5D5D;
+            top: 20px;
+        }
+        .slider_btn-2 {
+            background-color: #AEAEAE;
+            top: 115px;
+        }
+
         .slider {
             margin: 0 auto;
             width: 100%;
+        }
+
+        .slider_img {
             background-color: #fff;
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            background-position: center center;
+            height: 45vw;
+            position: relative;
         }
 
         .slider1 {
             background-image: url(../img/jpg/simplenote_top001.jpg);
-            background-repeat: no-repeat;
-            background-size: 100% auto;
-            background-position: center center;
-            height: 45vh;
-            position: relative;
         }
 
         .slider2 {
             background-image: url(../img/jpg/simplenote_top002.jpg);
-            background-repeat: no-repeat;
-            background-size: 100% auto;
-            background-position: center center;
-            height: 45vh;
-            position: relative;
         }
 
         .slider3 {
             background-image: url(../img/jpg/simplenote_top003.jpg);
-            background-repeat: no-repeat;
-            background-size: 100% auto;
-            background-position: center center;
-            height: 45vh;
-            position: relative;
         }
-
 
         .slider4 {
             background-image: url(../img/jpg/simplenote_top004.jpg);
-            background-repeat: no-repeat;
-            background-size: 100% auto;
-            background-position: center center;
-            height: 45vh;
-            position: relative;
         }
-
 
         .slider5 {
             background-image: url(../img/jpg/simplenote_top005.jpg);
-            background-repeat: no-repeat;
-            background-size: 100% auto;
-            background-position: center center;
-            height: 45vh;
-            position: relative;
         }
     }
+
+    /* ↑↑↑↑↑ 8/29 ゆたか編集部分 ↑↑↑↑↑ */
 
     /* ========== ニュース ========== */
 
@@ -418,7 +446,7 @@
             text-align: center;
             margin-top: 30px;
         }
-        
+
 
         .house__ttl--small:first-child {
             width: 65%;
@@ -426,7 +454,7 @@
             margin: 0 auto;
             padding: 0px 0 15px 55px;
         }
-    
+
 
         .house__ttl--small img {
             width: 100%;
@@ -720,7 +748,7 @@
             text-align: center;
             padding-top: 100px;
         }
-    
+
         .footer_container img {
             display: block;
             max-width: 100%;
@@ -1353,8 +1381,8 @@
 
 
     .arie_point_text_left {
-        width: 300px: padding-rigth: 40px;
-
+        width: 300px;
+        padding-right: 40px;
     }
 
     .arie_point_text_right {
