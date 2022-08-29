@@ -255,6 +255,7 @@
     @media not screen and (min-width: 560px) {
 
         .slider_catchcopy{
+            top: 37%;
             left: 35px;
             font-size: 14px;
         }
