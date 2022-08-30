@@ -1,4 +1,4 @@
-    <section>
+<section>
         <div class="footer_container">
             
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/png/kinokahome_logo.png" width="130" height="130" alt="きのかホームのロゴ">
