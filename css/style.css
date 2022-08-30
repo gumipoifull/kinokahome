@@ -15,6 +15,8 @@
         font-family: "メイリオ", "Helvetica Neue", "Arial", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
         color: #000;
         overflow-x: hidden;
+        position: relative;
+        margin: 0 auto;
     }
 
 
@@ -53,13 +55,11 @@
 
     /* ========== スマホ用br ========== */
 
-    .br_sp {
-        display: none;
-    }
+
 
     @media not screen and (min-width: 361px) {
         .br_sp {
-            display: inline;
+            display: none;
         }
     }
 
@@ -105,13 +105,15 @@
         font-size: 1.5rem;
     }
 
-    .desk_header_right {
-        margin-left: auto;
-    }
-
 
     /* ========== ハンバーガーメニューCSS ========== */
 
+    .desk_header_right {
+        position: fixed;
+        top: 60px;
+        right: 65px;
+        z-index: 999999;
+    }
 
     .desk_header_right p {
         font-size: 0.7rem;
@@ -130,6 +132,11 @@
 
     @media not screen and (min-width: 560px) {
 
+        .desk_header_right {
+            top: 26px;
+            right: 0;
+        }
+
         .header_x .header_inner {
             display: flex;
             margin: 0.5em auto;
@@ -143,6 +150,7 @@
 
         .logo {
             width: 65%;
+            height: auto;
             padding: 5px;
         }
 
@@ -177,6 +185,20 @@
 
     }
 
+    /* ========== 固定ボタン ========== */
+
+    .slider_btn_area-fixed {
+        position: fixed;
+        z-index: 9999;
+        top: 230px;
+        right: 0;
+    }
+    @media not screen and (min-width: 560px) {
+        .slider_btn_area-fixed {
+            display: none;
+        }
+    }
+
 
     /* ========== スライド ========== */
 
@@ -193,6 +215,10 @@
         z-index: 99;
         font-size: 32px;
         line-height: 1.5;
+    }
+
+    .slider_btn_area {
+        display: none;
     }
 
     .slider_btn {

@@ -7,3 +7,4 @@ function menuClick(){
 }
 
 mneuBtn.addEventListener('click', menuClick);
+slideMenu.addEventListener('click', menuClick);

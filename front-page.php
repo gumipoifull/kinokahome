@@ -1,5 +1,9 @@
 <?php get_header(); ?>
 <?php get_template_part('header2'); ?>
+<div class="slider_btn_area-fixed">
+    <a href="/#contact" class="slider_btn slider_btn-1">資料請求</a>
+    <a href="/#contact" class="slider_btn slider_btn-2">お問い合わせ</a>
+  </div>
 
 <div class="slider_container">
 <p class="slider_catchcopy">シンプルに建てるとは、<br>豊かに暮らすコト。</p>
@@ -182,7 +186,11 @@
       <div class="container_background">
       <div class="blog_box">
       <?php
-        query_posts('cat=1&posts_per_page=3&paged=' . $paged);
+        if( is_mobile() ){
+          query_posts('cat=1&posts_per_page=1&paged=' . $paged);
+        } else {
+          query_posts('cat=1&posts_per_page=3&paged=' . $paged);
+        }
         ?>
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
