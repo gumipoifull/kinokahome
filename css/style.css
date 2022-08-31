@@ -52,6 +52,72 @@
         font-weight: bold;
     }
 
+/* 後程調整 主にアーカイブページで使用中 */
+
+.mt50 {
+    margin-top: 50px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.mb50 {
+    margin-bottom: 50px;
+}
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mb5 {
+    margin-bottom: 5px;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.ml20 {
+    margin-left: 20px;
+}
+
+.pb10 {
+    padding-bottom: 10px;
+}
+
+.t_center {
+    text-align: center;
+}
+
+.fsize_ll {
+    font-size: 1.8rem;
+}
+
+.fsize_l {
+    font-size: 1.1rem;
+}
+
+.fsize_s {
+    font-size: 0.8rem;
+}
+
 
     /* ========== スマホ用br ========== */
 
@@ -803,6 +869,100 @@
             display: block;
             margin-bottom: 50px;
         }
+
+
+
+
+
+/* 2カラムページ */
+
+.archive_container .archive_container2 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sidebar {
+    display: none;
+}
+
+.sub_main img {
+    width: 100%;
+}
+
+.trail_space {
+    border-top: 1px solid #431800;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.sub_main_title {
+    padding: 0.5rem 1.5rem;
+    color: #fff;
+    background: #431800;
+    -webkit-box-shadow: 5px 5px 0#659b70;
+    box-shadow: 5px 5px 0 #659b70;
+}
+
+
+.article_inner {
+    display: flex;
+}
+
+.excerpt_archive {
+    border-bottom: 1px dotted #474747;
+}
+
+.post_date_single {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.post_date_single div:first-child {
+    margin-right: 20px;
+}
+
+
+.book_long img {
+    display: block;
+
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.noimage {
+    width: 100%;
+}
+
+.noimage_small {
+    width: 100%;
+}
+
+.size-post-thumbnail {
+    width: 100%;
+    height: auto;
+}
+
+.attachment-large {
+    width: 100%;
+    height: auto;
+}
+
+/* アーカイブページ */
+.nav-links {
+    text-align: center;
+}
+
+.page-numbers {
+    display: inline-block;
+    padding: 6px 10px;
+    margin: 0 3px;
+    background-color: #431800;
+    color: #fff;
+}
 
 
     /* 会社概要 */

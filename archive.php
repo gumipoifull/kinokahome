@@ -4,7 +4,7 @@
 
 <!-- パンくずリスト -->
 <div class="trail_space">
-    <div class="inner">
+    <div class="archive_container">
         <?php
         if (function_exists('bcn_display')) {
             bcn_display();
@@ -14,7 +14,7 @@
 </div>
 <!-- メイン-->
 <div class="main">
-    <div class="inner2">
+    <div class="archive_container2 mt20">
 
 		<!-- アイキャッチ画像
 		
@@ -30,7 +30,7 @@
 
     </div>
 
-    <div class="inner mt20">
+    <div class="archive_container">
 
         <div class="main_contents">
 
